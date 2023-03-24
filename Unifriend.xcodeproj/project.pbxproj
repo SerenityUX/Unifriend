@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43043CDB29CDD98B00411817 /* UnifriendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43043CDA29CDD98B00411817 /* UnifriendApp.swift */; };
+		43043CDD29CDD98B00411817 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43043CDC29CDD98B00411817 /* ContentView.swift */; };
+		43043CDF29CDD98C00411817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43043CDE29CDD98C00411817 /* Assets.xcassets */; };
+		43043CE229CDD98C00411817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43043CE129CDD98C00411817 /* Preview Assets.xcassets */; };
+		43043CEC29CDD98C00411817 /* UnifriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43043CEB29CDD98C00411817 /* UnifriendTests.swift */; };
+		43043CF629CDD98C00411817 /* UnifriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43043CF529CDD98C00411817 /* UnifriendUITests.swift */; };
+		43043CF829CDD98C00411817 /* UnifriendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43043CF729CDD98C00411817 /* UnifriendUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43043CE829CDD98C00411817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43043CCF29CDD98B00411817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43043CD629CDD98B00411817;
+			remoteInfo = Unifriend;
+		};
+		43043CF229CDD98C00411817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43043CCF29CDD98B00411817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43043CD629CDD98B00411817;
+			remoteInfo = Unifriend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43043CD729CDD98B00411817 /* Unifriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unifriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43043CDA29CDD98B00411817 /* UnifriendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifriendApp.swift; sourceTree = "<group>"; };
+		43043CDC29CDD98B00411817 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43043CDE29CDD98C00411817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43043CE129CDD98C00411817 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43043CE729CDD98C00411817 /* UnifriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnifriendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43043CEB29CDD98C00411817 /* UnifriendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifriendTests.swift; sourceTree = "<group>"; };
+		43043CF129CDD98C00411817 /* UnifriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnifriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43043CF529CDD98C00411817 /* UnifriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifriendUITests.swift; sourceTree = "<group>"; };
+		43043CF729CDD98C00411817 /* UnifriendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifriendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43043CD429CDD98B00411817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43043CE429CDD98C00411817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43043CEE29CDD98C00411817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43043CCE29CDD98B00411817 = {
+			isa = PBXGroup;
+			children = (
+				43043CD929CDD98B00411817 /* Unifriend */,
+				43043CEA29CDD98C00411817 /* UnifriendTests */,
+				43043CF429CDD98C00411817 /* UnifriendUITests */,
+				43043CD829CDD98B00411817 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43043CD829CDD98B00411817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43043CD729CDD98B00411817 /* Unifriend.app */,
+				43043CE729CDD98C00411817 /* UnifriendTests.xctest */,
+				43043CF129CDD98C00411817 /* UnifriendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43043CD929CDD98B00411817 /* Unifriend */ = {
+			isa = PBXGroup;
+			children = (
+				43043CDA29CDD98B00411817 /* UnifriendApp.swift */,
+				43043CDC29CDD98B00411817 /* ContentView.swift */,
+				43043CDE29CDD98C00411817 /* Assets.xcassets */,
+				43043CE029CDD98C00411817 /* Preview Content */,
+			);
+			path = Unifriend;
+			sourceTree = "<group>";
+		};
+		43043CE029CDD98C00411817 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43043CE129CDD98C00411817 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43043CEA29CDD98C00411817 /* UnifriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				43043CEB29CDD98C00411817 /* UnifriendTests.swift */,
+			);
+			path = UnifriendTests;
+			sourceTree = "<group>";
+		};
+		43043CF429CDD98C00411817 /* UnifriendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43043CF529CDD98C00411817 /* UnifriendUITests.swift */,
+				43043CF729CDD98C00411817 /* UnifriendUITestsLaunchTests.swift */,
+			);
+			path = UnifriendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43043CD629CDD98B00411817 /* Unifriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43043CFB29CDD98C00411817 /* Build configuration list for PBXNativeTarget "Unifriend" */;
+			buildPhases = (
+				43043CD329CDD98B00411817 /* Sources */,
+				43043CD429CDD98B00411817 /* Frameworks */,
+				43043CD529CDD98B00411817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unifriend;
+			productName = Unifriend;
+			productReference = 43043CD729CDD98B00411817 /* Unifriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43043CE629CDD98C00411817 /* UnifriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43043CFE29CDD98C00411817 /* Build configuration list for PBXNativeTarget "UnifriendTests" */;
+			buildPhases = (
+				43043CE329CDD98C00411817 /* Sources */,
+				43043CE429CDD98C00411817 /* Frameworks */,
+				43043CE529CDD98C00411817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43043CE929CDD98C00411817 /* PBXTargetDependency */,
+			);
+			name = UnifriendTests;
+			productName = UnifriendTests;
+			productReference = 43043CE729CDD98C00411817 /* UnifriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43043CF029CDD98C00411817 /* UnifriendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43043D0129CDD98C00411817 /* Build configuration list for PBXNativeTarget "UnifriendUITests" */;
+			buildPhases = (
+				43043CED29CDD98C00411817 /* Sources */,
+				43043CEE29CDD98C00411817 /* Frameworks */,
+				43043CEF29CDD98C00411817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43043CF329CDD98C00411817 /* PBXTargetDependency */,
+			);
+			name = UnifriendUITests;
+			productName = UnifriendUITests;
+			productReference = 43043CF129CDD98C00411817 /* UnifriendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43043CCF29CDD98B00411817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					43043CD629CDD98B00411817 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					43043CE629CDD98C00411817 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 43043CD629CDD98B00411817;
+					};
+					43043CF029CDD98C00411817 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 43043CD629CDD98B00411817;
+					};
+				};
+			};
+			buildConfigurationList = 43043CD229CDD98B00411817 /* Build configuration list for PBXProject "Unifriend" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43043CCE29CDD98B00411817;
+			productRefGroup = 43043CD829CDD98B00411817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43043CD629CDD98B00411817 /* Unifriend */,
+				43043CE629CDD98C00411817 /* UnifriendTests */,
+				43043CF029CDD98C00411817 /* UnifriendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43043CD529CDD98B00411817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43043CE229CDD98C00411817 /* Preview Assets.xcassets in Resources */,
+				43043CDF29CDD98C00411817 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43043CE529CDD98C00411817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43043CEF29CDD98C00411817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43043CD329CDD98B00411817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43043CDD29CDD98B00411817 /* ContentView.swift in Sources */,
+				43043CDB29CDD98B00411817 /* UnifriendApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43043CE329CDD98C00411817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43043CEC29CDD98C00411817 /* UnifriendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43043CED29CDD98C00411817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43043CF629CDD98C00411817 /* UnifriendUITests.swift in Sources */,
+				43043CF829CDD98C00411817 /* UnifriendUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43043CE929CDD98C00411817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43043CD629CDD98B00411817 /* Unifriend */;
+			targetProxy = 43043CE829CDD98C00411817 /* PBXContainerItemProxy */;
+		};
+		43043CF329CDD98C00411817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43043CD629CDD98B00411817 /* Unifriend */;
+			targetProxy = 43043CF229CDD98C00411817 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43043CF929CDD98C00411817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43043CFA29CDD98C00411817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43043CFC29CDD98C00411817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Unifriend/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H4LMN3ZLG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serenidad.Unifriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43043CFD29CDD98C00411817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Unifriend/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H4LMN3ZLG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serenidad.Unifriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43043CFF29CDD98C00411817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H4LMN3ZLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serenidad.UnifriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unifriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Unifriend";
+			};
+			name = Debug;
+		};
+		43043D0029CDD98C00411817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H4LMN3ZLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serenidad.UnifriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unifriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Unifriend";
+			};
+			name = Release;
+		};
+		43043D0229CDD98C00411817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H4LMN3ZLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serenidad.UnifriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unifriend;
+			};
+			name = Debug;
+		};
+		43043D0329CDD98C00411817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H4LMN3ZLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Serenidad.UnifriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unifriend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43043CD229CDD98B00411817 /* Build configuration list for PBXProject "Unifriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43043CF929CDD98C00411817 /* Debug */,
+				43043CFA29CDD98C00411817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43043CFB29CDD98C00411817 /* Build configuration list for PBXNativeTarget "Unifriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43043CFC29CDD98C00411817 /* Debug */,
+				43043CFD29CDD98C00411817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43043CFE29CDD98C00411817 /* Build configuration list for PBXNativeTarget "UnifriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43043CFF29CDD98C00411817 /* Debug */,
+				43043D0029CDD98C00411817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43043D0129CDD98C00411817 /* Build configuration list for PBXNativeTarget "UnifriendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43043D0229CDD98C00411817 /* Debug */,
+				43043D0329CDD98C00411817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43043CCF29CDD98B00411817 /* Project object */;
+}
