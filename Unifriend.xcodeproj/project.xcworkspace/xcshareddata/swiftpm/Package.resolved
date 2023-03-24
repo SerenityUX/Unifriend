@@ -1,0 +1,59 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "78424be314842833c04bc3bef5b72e85fff99204",
+        "version" : "5.6.4"
+      }
+    },
+    {
+      "identity" : "iphonenumberfield",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MojtabaHs/iPhoneNumberField.git",
+      "state" : {
+        "revision" : "5298972c899ba3555a77549bebeace2e16bc927d",
+        "version" : "0.10.1"
+      }
+    },
+    {
+      "identity" : "onesignal-xcframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OneSignal/OneSignal-XCFramework",
+      "state" : {
+        "branch" : "main",
+        "revision" : "539db4b16e3718b3a0ed4ca210421a6def8442b0"
+      }
+    },
+    {
+      "identity" : "phonenumberkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marmelroy/PhoneNumberKit",
+      "state" : {
+        "revision" : "9b051490589ae4f2fa861287407a43a87be7226c",
+        "version" : "3.5.8"
+      }
+    },
+    {
+      "identity" : "swift-request",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/carson-katri/swift-request.git",
+      "state" : {
+        "revision" : "6266d884d7ded618cceb0e0920431be4d6f4c4aa",
+        "version" : "1.4.0"
+      }
+    },
+    {
+      "identity" : "wrappinghstack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dkk/WrappingHStack",
+      "state" : {
+        "revision" : "44987fbb01112e6ec72098dc6481187dd53ad4d2",
+        "version" : "2.2.9"
+      }
+    }
+  ],
+  "version" : 2
+}
